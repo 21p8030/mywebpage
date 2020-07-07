@@ -1,0 +1,274 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,600);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    position: absolute;
+    height: 100% !important;
+    bottom: 0px;
+    background-image: url('img/man.jpg');
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: darken;
+}
+body {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #000000;
+}
+.top-wrapper {
+    width: 100%;
+    padding: 0;
+    /* background: #EC253F; */
+    float: left;
+}
+.bottom-wrapper {
+    /* width: 90%; */
+    padding: 34px 0;
+    /* background:#fff; */
+    float: left;
+}
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+.demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+}
+.main-title .thin {
+    font-weight: 200;
+}
+@media only screen and (max-width: 768px) {
+    .demo .main-title {
+        font-size: 3em;
+    }
+}
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    width: 1170px;
+    text-align: right;
+}
+.intro {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+#header {
+    margin-bottom: 62px;
+    position: relative;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    z-index: 1;
+}
+a.logo {
+    color: #FFF;
+    float: right;
+}
+.ie body {
+    filter: dropshadow(color=#000000, offx=0, offy=1);
+}
+h1 {
+    font-size: 68px;
+    /* letter-spacing:-2px; */
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 400;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0px 1px 1px rgba(12, 11, 11, 0.56);
+}
+.ie h1 {
+    filter: dropshadow(color=#000000, offx=0, offy=3);
+    padding-bottom: 12px;
+}
+.ie h2 {
+    filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h3 {
+    font-size: 25px;
+    margin: 0.2em 0;
+}
+.ie h3 {
+    filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+h4 {
+    margin-bottom: 5px;
+}
+p, pre {
+    margin: 0 0 10px 0;
+}
+code {
+    text-transform: uppercase !important;
+    color: #EEE;
+    border-bottom: 1px dotted #666;
+}
+small {
+    background: url(../images/alpha.png);
+    background: rgba(0, 0, 0, 0.8) url();
+    border: 1px solid #111;
+    font-size: 15px;
+    padding: 0 5px;
+}
+a {
+    color: #7b7b7b;
+    text-decoration: none;
+}
+a:hover {
+    color: #E3ECFF;
+}
+a.logo {
+    color: #FFF;
+    float: right;
+}
+.tempBy {
+    display: block;
+    text-align: right;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #fff;
+}
+#Content h2 {
+    display: block;
+    margin: 25px 0 42px;
+    padding: 0px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 42px;
+    text-transform: capitalize;
+}
+#WindowSlide {
+    margin: 0 auto;
+    position: relative;
+    width: 634px;
+    height: 170px;
+    display: block;
+    overflow: hidden;
+}
+#Content h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    clear: both;
+}
+.callback, .simple {
+    font-size: 20px;
+    background: #27ae60;
+    padding: 0.5em 0.7em;
+    color: #ecf0f1;
+    margin-bottom: 50px;
+    -webkit-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out;
+}
+.callback {
+    cursor: pointer;
+}
+.ended {
+    background: #c0392b;
+}
+.intro {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+#overlay {
+    background: rgba(0, 0, 0, 0.04) url(../images/overlays/06.png) top left repeat;
+    background: rgba(0, 0, 0, 0.14);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    bottom: 0px;
+    opacity: 0.8;
+}
+@media(max-width:998px) {
+    body {
+        min-width: initial !important;
+    }
+    #header {
+        /* margin-bottom: 78px; */
+        position: relative;
+        width: 100%;
+        /* height: 45px; */
+        /* line-height: 35px; */
+        z-index: 1;
+    }
+    .wrapper {
+        width: 90%;
+    }
+}
+@media(max-width:768px) {
+    body {
+        min-width: initial !important;
+    }
+    .wrapper {
+        width: 90%;
+    }
+    #Content h2 {
+        display: block;
+        margin: 0px 0 29px;
+        padding: 0px;
+        /* text-align: center; */
+        font-size: 21px;
+        font-weight: 300;
+    }
+}
+@media(max-width:420px) {
+    h1 {
+        adding-top: 16px;
+    }
+    #header {
+        margin-bottom: 30px;
+    }
+    #subscribe input[type="submit"] {
+        margin-top: 10px;
+    }
+    #subscribe input {
+        width: 80%;
+    }
+    footer {
+        position: relative !important;
+    }
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+/* Extra Small Devices, Phones */
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .wrapper {
+        width: 100%;
+        margin: 0 15px;
+    }
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    }
+}
